@@ -11,7 +11,7 @@
     
     @include respond (tab-port){
         width: 100%;
-        padding: 4rem;
+        padding: 2rem;
         padding-left: 7rem;
     }
     @include respond(phone){
@@ -36,12 +36,13 @@
 
         @include respond (phone){
             transform: translateX(-3rem) skewX(0);
+            margin-right: 3rem;
         }
     }
     &-img{
         height: 100%;
         transform: translateX(-4rem) scale(1.4);
-        transition: all .5s;
+        transition: all .5s; 
     }
     &-text{
         transform: skewX(12deg); 

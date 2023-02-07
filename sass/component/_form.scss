@@ -48,6 +48,7 @@
 
     &-radio-group{
         display: inline-block;
+        padding-left: 2rem;
 
         @include respond (tab-port){
             width: 100%;
